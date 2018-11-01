@@ -1,0 +1,26 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    position: absolute;
+    right:1%;
+    bottom:0;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+.calculator {
+    border: 5px solid gray;
+    position:absolute;
+    width: 300px;
+    height: 400px;
+    top: 35%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -100px;
+}
+
