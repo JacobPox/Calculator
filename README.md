@@ -25,4 +25,26 @@ Currently, this calculator does not function. I am still working on it.
 5. export FLASK_APP=hello
 6. flask run
 
+# To Do List
+
+**Back End:**
+
+* ~~Take user input.~~
+
+* Produce output.
+
+* Create function for arithmetic.
+
+* Restrict non-allowed characters (to prevent misuse of eval()).
+
+* Add memory clear options.
+
+* Add storing into memory (keep adding previous results).
+
+**Front End:**
+
+* Position elements correctly.
+
+* Make it look "pretty"
+
 Feel free to comment, send issues, or contribute!
