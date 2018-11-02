@@ -33,9 +33,9 @@ Currently, this calculator does not function. I am still working on it.
 
 * Produce output.
 
-* Create function for arithmetic.
+* ~~Create function for arithmetic.~~
 
-* Restrict non-allowed characters (to prevent misuse of eval()).
+* ~~Restrict non-allowed characters (to prevent misuse of eval()).~~
 
 * Add memory clear options.
 
