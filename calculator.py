@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 # To Do List:
-# Link calcEval to user requests.
 # Memory
 # Clear Data
 # More advanced math function (natural log, pi, euler's number)
@@ -21,18 +20,22 @@ def calcEval(equation):
 
   else:
     try:
+      equation = equation.replace('^','**')
       return (eval(equation))
     except Exception as e:
       return 'Error: {}'.format(e)    
 
-# askedEquation = input()
 
-# print(calcEval(askedEquation))    
-
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def frontPage():
-    
-    # Need to use request for I/O
-    # calc = request.args.get('calc')
-    
+
+  if request.method == 'GET':
+    # Show the basic HTML page
     return render_template('index.html')
+    
+  elif request.method == 'POST':
+    # Calculate request
+    expression = request.form.get('calc')
+    result = calcEval(expression)
+
+    return str(result)
