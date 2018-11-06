@@ -1,7 +1,7 @@
 # Calculator Flask App
 
 
-Currently, this calculator does not function. I am still working on it.
+This calculator is still a work in progress, although it is not yet very pretty, it does function!
 
 # To use:
 
@@ -31,20 +31,27 @@ Currently, this calculator does not function. I am still working on it.
 
 * ~~Take user input.~~
 
-* Produce output.
+* ~~Produce output.~~
 
 * ~~Create function for arithmetic.~~
 
 * ~~Restrict non-allowed characters (to prevent misuse of eval()).~~
 
+* Produce output on same page/same looking page.
+
+* Add buttons which append to a string corresponding to the button pressed.
+
 * Add memory clear options.
 
 * Add storing into memory (keep adding previous results).
+
 
 **Front End:**
 
 * Position elements correctly.
 
-* Make it look "pretty"
+* Put numbers and functions in calculator box.
+
+* Make it look "pretty".
 
 Feel free to comment, send issues, or contribute!
