@@ -3,9 +3,7 @@
 
 This calculator is still a work in progress, although it is not yet very pretty, it does function!
 
-**Update:**
-
-This web app can now be found at http://jacobpox.pythonanywhere.com/ if you wish to view/use it without having to download the file. The pythonanywhere web app should be synced to all updates made on here.
+This web app can be found at http://jacobpox.pythonanywhere.com/ if you wish to view/use it without having to download the file. This web app is synced to any updates made here.
 
 # To use:
 
