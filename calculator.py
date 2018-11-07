@@ -11,7 +11,7 @@ def calcEval(equation):
   characters = list(equation)
 
   allowedInputs = ['0','1','2','3','4','5','6','7','8','9',
-  '+','-','*','/','^', ' ', '(', ')']
+  '+','-','*','/','^', ' ', '(', ')','.']
 
   checkSet = set(characters + allowedInputs)
 
@@ -22,9 +22,8 @@ def calcEval(equation):
     try:
       equation = equation.replace('^','**')
       return (eval(equation))
-    except Exception as e:
-      return 'Unknown error occured.'
-      # return 'Error: {}'.format(e)    
+    except:
+      return 'Unknown error occured.'  
 
 
 @app.route('/', methods=['GET', 'POST'])
