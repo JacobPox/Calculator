@@ -16,14 +16,15 @@ def calcEval(equation):
   checkSet = set(characters + allowedInputs)
 
   if len(checkSet) != len(allowedInputs):
-    return "Error"
+    return "Error: Unknown input character."
 
   else:
     try:
       equation = equation.replace('^','**')
       return (eval(equation))
     except Exception as e:
-      return 'Error: {}'.format(e)    
+      return 'Unknown error occured.'
+      # return 'Error: {}'.format(e)    
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -36,6 +37,6 @@ def frontPage():
   elif request.method == 'POST':
     # Calculate request
     expression = request.form.get('calc')
-    result = calcEval(expression)
+    result = str(calcEval(expression))
 
-    return str(result)
+    return render_template('index.html', result=result, expression=expression)
