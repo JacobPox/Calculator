@@ -24,3 +24,9 @@ body {
     margin-top: -100px;
 }
 
+.main {
+    position:absolute;
+    top: 40%;
+    left: 42%;
+}
+
