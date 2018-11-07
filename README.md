@@ -43,7 +43,7 @@ This web app can now be found at http://jacobpox.pythonanywhere.com/ if you wish
 
 * Allow parenthesis multiplication Ex: (5)(5) = 25 or 5(5) = 25
 
-* Produce output on same page/same looking page.
+* ~~Produce output on same page/same looking page.~~
 
 * Add buttons which append to a string corresponding to the button pressed.
 
