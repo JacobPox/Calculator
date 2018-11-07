@@ -10,7 +10,16 @@
 
 <div class='calculator'></div>
 
-<form action="/" method="POST"> <input type="text" name="calc"/> <input type="submit" value="Calculate!" /> </form>
+<div class='main'>
+
+    <div class='input'>{% if expression %}{{expression}}{% endif %}</div>
+
+    <form action="/" method="POST"> <input type="text" name="calc" /> <input type="submit" value="Calculate!" /> </form>
+
+    <div class='output'>= {% if result %}{{result}}{% endif %}</div>
+
+</div>
+
 
 <h3>This app was made using Flask.</h3>
 
