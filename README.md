@@ -43,7 +43,7 @@ This web app can be found at http://jacobpox.pythonanywhere.com/ if you wish to 
 
 * ~~Produce output on same page/same looking page.~~
 
-* Add buttons which append to a string corresponding to the button pressed.
+* Add buttons
 
 * Add memory clear options.
 
