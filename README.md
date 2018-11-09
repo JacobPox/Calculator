@@ -39,7 +39,7 @@ This web app can be found at http://jacobpox.pythonanywhere.com/ if you wish to 
 
 * ~~Restrict non-allowed characters (to prevent misuse of eval()).~~
 
-* Allow parenthesis multiplication Ex: (5)(5) = 25 or 5(5) = 25
+* ~~Allow parenthesis multiplication Ex: (5)(5) = 25 or 5(5) = 25~~
 
 * ~~Produce output on same page/same looking page.~~
 
