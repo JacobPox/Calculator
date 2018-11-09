@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+import re
 app = Flask(__name__)
 
 # To Do List:
@@ -20,6 +21,7 @@ def calcEval(equation):
 
   else:
     try:
+      equation = re.sub('(?<=\d|\))(\()', '*(', equation)
       equation = equation.replace('^','**')
       return (eval(equation))
     except:
