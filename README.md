@@ -1,8 +1,5 @@
 # Calculator Flask App
 
-
-This calculator is still a work in progress, although it is not yet very pretty, it does function!
-
 This web app can be found at http://jacobpox.pythonanywhere.com/ if you wish to view/use it without having to download the file. This web app is synced to any updates made here.
 
 # To use:
@@ -29,8 +26,6 @@ This web app can be found at http://jacobpox.pythonanywhere.com/ if you wish to 
 
 # To Do List
 
-**Back End:**
-
 * ~~Take user input.~~
 
 * ~~Produce output.~~
@@ -42,6 +37,10 @@ This web app can be found at http://jacobpox.pythonanywhere.com/ if you wish to 
 * ~~Allow parenthesis multiplication Ex: (5)(5) = 25 or 5(5) = 25~~
 
 * ~~Produce output on same page/same looking page.~~
+
+# Possible Additions
+
+**Back End:**
 
 * Add buttons
 
