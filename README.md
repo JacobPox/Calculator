@@ -40,21 +40,13 @@ This web app can be found at http://jacobpox.pythonanywhere.com/ if you wish to 
 
 # Possible Additions
 
-**Back End:**
+* Add buttons.
 
-* Add buttons
+* Add "advanced" functions and numbers. (pi, e, ln, etc)
 
 * Add memory clear options.
 
 * Add storing into memory (keep adding previous results).
 
-
-**Front End:**
-
-* Position elements correctly.
-
-* Put numbers and functions in calculator box.
-
-* Make it look "pretty".
 
 Feel free to comment, send issues, or contribute!
