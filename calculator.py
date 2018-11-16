@@ -2,12 +2,14 @@ from flask import Flask, render_template, request
 import re
 app = Flask(__name__)
 
-# To Do List:
-# Memory
-# Clear Data
-# More advanced math function (natural log, pi, euler's number)
-
 def calcEval(equation):
+  '''
+
+  calcEval() uses eval(), which is normally a dangerous thing to do.
+  To combat this, a list of allowed inputs are made so eval() only gets called if the 
+  "equation" given contains only allowed inputs.
+  
+  '''
 
   characters = list(equation)
 
