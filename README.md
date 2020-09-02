@@ -1,6 +1,8 @@
 # Calculator Flask App
 
-This web app can be found at http://jacobpox.pythonanywhere.com/ if you wish to view/use it without having to download the file. This web app is synced to any updates made here.
+~~This web app can be found at http://jacobpox.pythonanywhere.com/ if you wish to view/use it without having to download the file. This web app is synced to any updates made here.~~
+
+No longer being maintained at the previous website.
 
 # To use:
 
